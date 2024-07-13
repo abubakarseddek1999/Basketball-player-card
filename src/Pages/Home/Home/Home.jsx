@@ -1,8 +1,10 @@
+import BasketballPlayerCards from "../../../Components/BasketballPlayerCard/BasketballPlayerCards";
 
 const Home = () => {
     return (
-        <div>
-            <p className="min-h-screen text-4xl md:text-6xl font-bold pt-10  text-center">React Basketball Player Card</p>
+        <div className="p-5">
+            <p className=" text-4xl md:text-6xl font-bold pt-10  text-center mb-10"> Basketball Players</p>
+            <BasketballPlayerCards></BasketballPlayerCards>
         </div>
     );
 };
