@@ -2,7 +2,7 @@ import React from 'react';
 
 const BasketballPlayerCard = ({ name, image, position, stats }) => {
     return (
-        <div className=" border rounded-xl shadow-xl transition-transform duration-300 hover:scale-105">
+        <div className=" border rounded-xl shadow-xl transition-transform duration-300 hover:scale-105 mb-10">
             <img src={image} alt={`${name}`} className="rounded-t" />
             <div className='p-5'>
                 <h2 className="text-xl md:text-2xl lg:text-3xl font-bold">{name}</h2>

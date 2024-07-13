@@ -107,7 +107,7 @@ const BasketballPlayerCards = () => {
     ];
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10 max-w-[1400px] mx-auto pt-5">
             {players.map((player, index) => (
                 <BasketballPlayerCard
                     key={index}
